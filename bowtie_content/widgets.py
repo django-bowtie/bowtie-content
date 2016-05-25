@@ -1,7 +1,7 @@
 import json
 from django import forms
 from django.forms.widgets import Media
-from content import custom_blocks_registry
+from bowtie_content import custom_blocks_registry
 from config import BowtieContentConfig as conf
 
 
