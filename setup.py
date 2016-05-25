@@ -2,6 +2,11 @@
 # -*- coding: utf-8 -*-
 from setuptools import setup
 
+
+def readme():
+    with open('README.md') as f:
+        return f.read()
+
 setup(
     name='bowtie-content',
     version='0.0.1',
@@ -10,7 +15,7 @@ setup(
     zip_safe=False,
     license='MIT License',
     description='Django-Bowtie content component',
-    long_description=open('README.rst', 'r').read(),
+    long_description=readme(),
     url='https://github.com/django-bowtie/bowtie-content/',
     author='Rense VanderHoek',
     author_email='rense@me.com',
