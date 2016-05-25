@@ -1,1 +1,3 @@
 include README.md
+recursive-include bowtie_content/static *
+recursive-include bowtie_content/templates *
