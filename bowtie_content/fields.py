@@ -6,7 +6,7 @@ from bowtie_content import BowtieContent
 from forms import BowtieContentFormField
 
 
-class SirTrevorField(with_metaclass(models.SubfieldBase, models.Field)):
+class BowtieContentField(with_metaclass(models.SubfieldBase, models.Field)):
     description = _("TODO")
 
     def get_internal_type(self):
@@ -17,7 +17,7 @@ class SirTrevorField(with_metaclass(models.SubfieldBase, models.Field)):
             'form_class': BowtieContentFormField
         }
         defaults.update(kwargs)
-        return super(SirTrevorField, self).formfield(**defaults)
+        return super(BowtieContentField, self).formfield(**defaults)
 
     def to_python(self, value):
         return BowtieContent(value)
