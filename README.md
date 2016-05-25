@@ -1,1 +1,4 @@
-# bowtie-content
+BowtieContent
+=============
+
+Part of Django-Bowtie.

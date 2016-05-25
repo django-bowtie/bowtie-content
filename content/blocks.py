@@ -1,0 +1,3 @@
+
+class BaseBlock(object):
+    pass
