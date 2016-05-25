@@ -2,7 +2,7 @@ from django.db import models
 from django.utils.six import with_metaclass, text_type
 from django.utils.translation import ugettext_lazy as _
 
-from content import BowtieContent
+from bowtie_content import BowtieContent
 from forms import BowtieContentFormField
 
 

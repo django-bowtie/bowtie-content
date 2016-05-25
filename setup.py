@@ -10,7 +10,7 @@ def readme():
 setup(
     name='bowtie-content',
     version='0.0.1',
-    packages=['content'],
+    packages=['bowtie_content'],
     include_package_data=True,
     zip_safe=False,
     license='MIT License',

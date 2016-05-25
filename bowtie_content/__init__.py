@@ -2,7 +2,7 @@ import json
 from django.template.loader import render_to_string
 import six
 
-default_app_config = 'content.config.BowtieContentConfig'
+default_app_config = 'bowtie_content.config.BowtieContentConfig'
 
 
 class BowtieContent(six.text_type):
