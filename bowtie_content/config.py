@@ -5,7 +5,7 @@ class BowtieContentConfig(AppConfig):
 
     label = 'bowtie-content'
 
-    name = 'content'
+    name = 'bowtie_content'
     verbose_name = 'bowtie_content'
 
     BLOCK_TYPES = [
