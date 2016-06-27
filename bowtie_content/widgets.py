@@ -58,6 +58,7 @@ class BowtieContentWidget(forms.Textarea):
 
         css = {
             'all': [
-                'bowtie-content/components/sir-trevor-js/sir-trevor.css'
+                'bowtie-content/components/sir-trevor-js/sir-trevor.css',
+                'css/bowtie-content.css'
             ]
         }
